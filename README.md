@@ -6,7 +6,7 @@ Supervised Principal Components for regression and survival analysis.
 ### Description
 
 This software, written in the R language, does prediction for a censored survival outcome, or a regression outcome, 
-using the "supervised principal component" approach. It is especially useful when the number of features p is >> n, 
+using the "supervised principal component" approach. It is especially useful when the number of features _p_ >> _n_, 
 the number of samples, for example in microarray studies.
 
 
