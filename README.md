@@ -1,5 +1,5 @@
 # superpc
-Supervised Principal Components for regression and survival analsysis. 
+Supervised Principal Components for regression and survival analysis. 
 
 
 ===============
@@ -20,7 +20,6 @@ to an outcome variable, we compute univariate scores for each gene and then reta
 A principal components analysis is carried out using only the data from these selected features. 
 Finally, these "supervised principal components" are used in a regression model to predict the outcome. 
 To summarize, the steps are:
-
     + Compute (univariate) standard regression coefficients for each feature
     + Form a reduced data matrix consisting of only those features whose univariate coefficient exceeds a threshold theta 
       in absolute value (theta is estimated by cross-validation)
@@ -148,7 +147,7 @@ Funding/Provision/Help:
    + Eric Bair was supported by an NSF graduate research fellowship. 
      Robert Tibshirani was partially supported by National Science Foundation Grant DMS-9971405 
      and National Institutes of Health Contract N01-HV-28183. Hastie was supported in part by
-     National Science Foundation grant DMS-02-04612 and National Institutes of Health grant 2R01 CA 72028-07.
+     National Science Foundation grant DMS-02-04612 and National Institutes of Health grant R01 CA 72028-07.
 
 
 ==============
