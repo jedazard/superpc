@@ -127,7 +127,7 @@ etc...
 ==================
 ### Website - Wiki
 
-- See [Website](http://www-stat.stanford.edu/~tibs/superpc) for more details, and a tutorial with examples and interpretation.
+- See Rob Tibshirani's [Website](http://www-stat.stanford.edu/~tibs/superpc) for more details, and a tutorial with examples and interpretation.
 
 
 ===================
