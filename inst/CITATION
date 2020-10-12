@@ -1,0 +1,33 @@
+citHeader("To cite superpc in publications use:")
+
+titl <- paste(meta$Package, ":", meta$Title, sep=" ")
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry       = "Article",
+         title       = "Semi-supervised methods to predict patient survival from gene expression data",
+         author      = personList(person(family="Bair", given="E."),
+                                  person(family="Tibshirani", given="R.")), 	
+         journal     = "PLoS Biol",
+         year        = "2004",
+         volume      = "2",
+         number      = "4",
+         pages       = "e108",
+         textVersion = "Bair E. and Tibshirani R. (2004).
+                        Semi-supervised methods to predict patient survival from gene expression data.
+                        PLoS Biol. 2004;2(4):e108.")
+
+citEntry(entry       = "Article",
+         title       = "Prediction by supervised principal components",
+         author      = personList(person(family="Bair", given="E."),
+                                  person(family="Hastie", given="T."),
+                                  person(family="Paul", given="D."),
+                                  person(family="Tibshirani", given="R.")), 	
+         journal     = "J. Am. Stat. Assoc.",
+         year        = "2006",
+         volume      = "101",
+         number      = "473",
+         pages       = "119-137",
+         textVersion = "Bair E., Hastie T., Paul D., and Tibshirani R. (2006).
+                        Prediction by supervised principal components.
+                        J. Am. Stat. Assoc. 2006;101(473):119-137.")
