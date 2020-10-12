@@ -1,0 +1,25 @@
+Package: superpc
+Type: Package
+Title: Supervised Principal Components
+Version: 1.10
+Date: 2020-10-12
+Authors@R: c(person("Eric", "Bair",
+                    role = "aut",
+                    email = "ebair@email.unc.edu"),
+             person("Jean-Eudes", "Dazard",
+                    role = c("cre", "ctb"),
+                    email = "jean-eudes.dazard@case.edu"),
+             person("Rob", "Tibshirani",
+                    role = "ctb",
+	               email = "tibs@stanford.edu"))
+Author: Eric Bair [aut], Jean-Eudes Dazard [cre, ctb], Rob Tibshirani [ctb]
+Maintainer: Jean-Eudes Dazard <jean-eudes.dazard@case.edu>
+Description: Supervised principal components for regression and survival analsysis. Especially useful for high-dimnesional data, including microarray data.
+Depends: R (>= 3.5.0)
+Imports: survival, stats, graphics, grDevices
+NeedsCompilation: no
+URL: http://www-stat.stanford.edu/~tibs/superpc, https://github.com/jedazard/superpc
+Repository: CRAN, GitHub, Inc.
+Date/Publication: 2004-09-16
+License: GPL (>= 3) | file LICENSE
+Archs: i386, x64

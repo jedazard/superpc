@@ -21,11 +21,11 @@ A principal components analysis is carried out using only the data from these se
 Finally, these "supervised principal components" are used in a regression model to predict the outcome. 
 To summarize, the steps are:
 
-   + Compute (univariate) standard regression coefficients for each feature
-   + Form a reduced data matrix consisting of only those features whose univariate coefficient exceeds a threshold theta 
+    + Compute (univariate) standard regression coefficients for each feature
+    + Form a reduced data matrix consisting of only those features whose univariate coefficient exceeds a threshold theta 
       in absolute value (theta is estimated by cross-validation)
-   + Compute the first (or first few) principal components of the reduced data matrix
-   + Use these principal component(s) in a regression model to predict the outcome
+    + Compute the first (or first few) principal components of the reduced data matrix
+    + Use these principal component(s) in a regression model to predict the outcome
 
 This idea can be used in standard regression problems with a quantitative outcome, and also in generalized regression problems 
 such as survival analysis. In the latter problem, the regression coefficients in step (1) are obtained from a proportional hazards model. 

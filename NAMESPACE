@@ -1,0 +1,21 @@
+import("survival")
+
+importFrom("grDevices", "dev.off", "gray", "palette", "rgb", "dev.new")
+importFrom("graphics", "abline", "axis", "layout", "legend", "matlines", "matplot", "mtext", "par", "plot", "polygon", "segments", "text", "title")
+importFrom("stats", "lm", "median", "pchisq", "pf", "predict", "qchisq", "qf", "quantile", "rnorm", "runif", "smooth.spline", "var")
+
+export("superpc.cv",
+       "superpc.decorrelate",
+       "superpc.fit.to.outcome",
+       "superpc.listfeatures",
+       "superpc.lrtest.curv",
+       "superpc.plotcv",
+       "superpc.plot.lrtest",
+       "superpc.plotred.lrtest",
+       "superpc.train",
+       "superpc.predict",
+       "superpc.predict.red",
+       "superpc.predict.red.cv",
+       "superpc.predictionplot",
+       "superpc.rainbowplot")
+
