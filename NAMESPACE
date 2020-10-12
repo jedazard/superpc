@@ -4,7 +4,8 @@ importFrom("grDevices", "dev.off", "gray", "palette", "rgb", "dev.new")
 importFrom("graphics", "abline", "axis", "layout", "legend", "matlines", "matplot", "mtext", "par", "plot", "polygon", "segments", "text", "title")
 importFrom("stats", "lm", "median", "pchisq", "pf", "predict", "qchisq", "qf", "quantile", "rnorm", "runif", "smooth.spline", "var")
 
-export("superpc.cv",
+export("superpc.news",
+       "superpc.cv",
        "superpc.decorrelate",
        "superpc.fit.to.outcome",
        "superpc.listfeatures",
