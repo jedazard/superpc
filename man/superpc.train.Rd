@@ -59,7 +59,7 @@
         \item "Jean-Eudes Dazard, Ph.D."
         \item "Rob Tibshirani, Ph.D."
     }
-    Maintainer: "Rob Tibshirani, Ph.D."
+    Maintainer: "Jean-Eudes Dazard, Ph.D."
 }
 
 \examples{
