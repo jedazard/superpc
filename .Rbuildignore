@@ -1,0 +1,12 @@
+^.*\.Rproj$         # Automatically added by RStudio,
+^\.Rproj\.user$     # used for temporary files. 
+^README\.Rmd$       # An Rmarkdown file used to generate README.md
+^cran-comments\.md$ # Comments for CRAN submission
+^\.travis\.yml$     # Configuration file to tell Travis CI what/how to build
+^NEWS\.md$          # A news file written in Markdown
+^\.travis\.yml$     # Used for continuous integration testing with travis
+^\.gitignore$       # Used for GitHub building
+^\.gitattributes$   # Used for GitHub building
+^.*\.fsrc$
+^.*\.o$
+^.*\.so$
