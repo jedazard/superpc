@@ -43,6 +43,7 @@ SIGNIFICANT USER-VISIBLE CHANGES
 - Added GitHub repository for development and support.
 - Hidden internal codes (functions never to be called by end-user).
 - Added "inst" folder with documentation, CITATION and NEWS files.
+- Added README file.
 BUG FIXES
 - Matched DESCRIPTION declarations and NAMESPACE directives.
 - Corrected all R code problems to comply with R (>= 4.0.2).
