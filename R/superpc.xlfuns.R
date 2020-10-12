@@ -1,3 +1,23 @@
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.get.threshold.range(train.obj)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
+
 superpc.xl.get.threshold.range <- function(train.obj) {
 
     cur.tt <- train.obj$feature.scores
@@ -11,7 +31,35 @@ superpc.xl.get.threshold.range <- function(train.obj) {
 
     return(c(lower,upper))
 }
+#==========================================================================================#
 
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.listgenes.compute(data, 
+#                                                 train.obj, 
+#                                                 fit.red, 
+#                                                 fitred.cv=NULL,
+#                                                 num.genes=NULL, 
+#                                                 component.number=1)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
 
 superpc.xl.listgenes.compute <- function(data, 
                                          train.obj, 
@@ -66,7 +114,36 @@ superpc.xl.listgenes.compute <- function(data,
     return(foo)
     
 }
+#==========================================================================================#
 
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.fit.to.clin(fit,
+#                                           data.test,score, 
+#                                           pamr.xl.test.sample.labels, 
+#                                           pamr.xl.clindata, 
+#                                           pamr.xl.clinsamplabels, 
+#                                           pamr.xl.clinprednames, 
+#                                           pamr.xl.clinpredtype)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
 
 superpc.xl.fit.to.clin <- function(fit, 
                                    data.test,score, 
@@ -74,7 +151,7 @@ superpc.xl.fit.to.clin <- function(fit,
                                    pamr.xl.clindata, 
                                    pamr.xl.clinsamplabels, 
                                    pamr.xl.clinprednames, 
-                                   pamr.xl.clinpredtype ) {
+                                   pamr.xl.clinpredtype) {
 
     # strip off extra first element, row, col that rServer seems to include
     # put everything in same order as test expression data
@@ -107,14 +184,42 @@ superpc.xl.fit.to.clin <- function(fit,
     return(list(results=foo$coeftable, teststat.table=foo$teststat.table,  errorflag=errorflag))
 
 }
+#==========================================================================================#
 
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.decorrelate(data, 
+#                                           pamr.xl.train.sample.labels, 
+#                                           pamr.xl.clindata, 
+#                                           pamr.xl.clinsamplabels, 
+#                                           pamr.xl.clinprednames, 
+#                                           pamr.xl.clinpredtype)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
 
 superpc.xl.decorrelate <- function(data, 
                                    pamr.xl.train.sample.labels, 
                                    pamr.xl.clindata, 
                                    pamr.xl.clinsamplabels, 
                                    pamr.xl.clinprednames, 
-                                   pamr.xl.clinpredtype ) {
+                                   pamr.xl.clinpredtype) {
 
     # strip off extra first element, row, col that rServer seems to include
     # put everything in same order as training expression data
@@ -147,7 +252,36 @@ superpc.xl.decorrelate <- function(data,
                 errorflag=errorflag))
 
 }
+#==========================================================================================#
 
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.decorrelate.test(object.decorr, 
+#                                                xtest, 
+#                                                pamr.xl.train.sample.labels, 
+#                                                pamr.xl.clindata, 
+#                                                pamr.xl.clinsamplabels, 
+#                                                pamr.xl.clinprednames, 
+#                                                pamr.xl.clinpredtype)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
 
 superpc.xl.decorrelate.test <- function(object.decorr, 
                                         xtest, 
@@ -155,7 +289,7 @@ superpc.xl.decorrelate.test <- function(object.decorr,
                                         pamr.xl.clindata, 
                                         pamr.xl.clinsamplabels, 
                                         pamr.xl.clinprednames, 
-                                        pamr.xl.clinpredtype ) {
+                                        pamr.xl.clinpredtype) {
 
     # strip off extra first element, row, col that rServer seems to include
     # put everything in same order as training expression data
@@ -188,7 +322,37 @@ superpc.xl.decorrelate.test <- function(object.decorr,
     return(list(results=xtest, errorflag=errorflag))
     
 }
+#==========================================================================================#
 
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    superpc.xl.rainbowplot(data, 
+#                                           pred,
+#                                           pamr.xl.test.sample.labels,
+#                                           pamr.xl.clindata,
+#                                           pamr.xl.clinsamplabels,
+#                                           pamr.xl.clinprednames,
+#                                           pamr.xl.clinpredtype,
+#                                           call.win.metafile=FALSE)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
 
 superpc.xl.rainbowplot <- function(data, 
                                    pred,
@@ -224,5 +388,37 @@ superpc.xl.rainbowplot <- function(data,
     
     return()
 }
+#==========================================================================================#
 
-  
+
+
+
+#==========================================================================================#
+#===============#
+# Usage         :
+#===============#
+#                    .onAttach (libname, pkgname)
+#
+#===============#
+# Description   :
+#===============#
+#
+#===============#
+# Arguments     :
+#===============#
+#
+#===============#
+# Values        :
+#===============#
+#
+#==========================================================================================#
+
+.onAttach <- function(libname, pkgname) {
+   
+   SSver <- read.dcf(file=system.file("DESCRIPTION", package=pkgname), 
+                     fields="Version")
+   packageStartupMessage(paste(pkgname, " ", SSver, sep=""))
+   packageStartupMessage("Type superpc.news() to see new features, changes, and bug fixes")
+   
+}
+#==========================================================================================#
