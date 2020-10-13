@@ -78,7 +78,7 @@ See Travis CI build result:
 [![Build Status](https://travis-ci.com/jedazard/superpc.svg)](https://travis-ci.com/jedazard/superpc)
 
 See CRAN checks:
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/superpc)](https://cran.r-project.org/web/checks/check_results_superpc.html).
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/superpc)](https://cran.r-project.org/web/checks/check_results_superpc.html)
 
 
 ================
