@@ -1,4 +1,4 @@
-# superpc
+# Superpc
 Supervised Principal Components for regression and survival analysis. 
 
 
@@ -6,8 +6,8 @@ Supervised Principal Components for regression and survival analysis.
 ### Description
 
 This software, written in the R language, does prediction for a censored survival outcome, or a regression outcome, 
-using the "supervised principal component" approach. It is especially useful when the number of features _p_ >> _n_, 
-the number of samples, for example in microarray studies.
+using the "supervised principal component" approach. It is especially useful for high-dimensional data when the number of 
+features _p_ dominates the number of samples _n_ (_p_ >> _n_ paradigm), as generated for instance by high-throughput technologies.
 
 
 ===============
@@ -134,13 +134,13 @@ etc...
 ### Acknowledgments
 
 Authors: 
-   + Eric Bair, Ph.D. [(ebair@email.unc.edu)](ebair@email.unc.edu)
-   + Trevor Hastie, Ph.D. [(hastie@stanford.edu)](hastie@stanford.edu)
-   + Debashis Paul, Ph.D. [(debpaul@ucdavis.edu)](debpaul@ucdavis.edu)
-   + Robert Tibshirani, Ph.D. [(tibs@stanford.edu)](tibs@stanford.edu)
+   + Eric Bair, Ph.D. <ebair@email.unc.edu>
+   + Trevor Hastie, Ph.D. <hastie@stanford.edu>
+   + Debashis Paul, Ph.D. <debpaul@ucdavis.edu>
+   + Robert Tibshirani, Ph.D. <tibs@stanford.edu>
 
 Maintainers: 
-   + Jean-Eudes Dazard, Ph.D. [(jean-eudes.dazard@case.edu)](jean-eudes.dazard@case.edu)
+   + Jean-Eudes Dazard, Ph.D. <jean-eudes.dazard@case.edu>
 
 Funding/Provision/Help:   
    + This work made use of the High Performance Computing Resource in the Core Facility for 
