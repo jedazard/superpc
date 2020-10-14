@@ -2,7 +2,7 @@ Package: superpc
 Type: Package
 Title: Supervised Principal Components
 Version: 1.10
-Date: 2020-10-12
+Date: 2020-10-13
 Authors@R: c(person("Eric", "Bair",
                     role = "aut",
                     email = "ebair@email.unc.edu"),
@@ -14,7 +14,7 @@ Authors@R: c(person("Eric", "Bair",
 	               email = "tibs@stanford.edu"))
 Author: Eric Bair [aut], Jean-Eudes Dazard [cre, ctb], Rob Tibshirani [ctb]
 Maintainer: Jean-Eudes Dazard <jean-eudes.dazard@case.edu>
-Description: Supervised principal components for regression and survival analsysis. Especially useful for high-dimnesional data, including microarray data.
+Description: This software does prediction for a censored survival outcome, or a regression outcome, using the "supervised principal component" approach (Bair et al. (2006) <doi:10.1198/016214505000000628>). It is especially useful for high-dimensional data when the number of features p dominates the number of samples n (p >> n paradigm), as generated for instance by high-throughput technologies.
 Depends: R (>= 3.5.0)
 Imports: survival, stats, graphics, grDevices
 NeedsCompilation: no
