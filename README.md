@@ -5,9 +5,9 @@ Supervised Principal Components for regression and survival analysis.
 ===============
 ### Description
 
-This software, written in the R language, does prediction for a censored survival outcome, or a regression outcome, 
-using the "supervised principal component" approach. It is especially useful for high-dimensional data when the number of 
-features _p_ dominates the number of samples _n_ (_p_ >> _n_ paradigm), as generated for instance by high-throughput technologies.
+Superpc does prediction for a censored survival outcome, or a regression outcome, using the "supervised principal component" approach. 
+It is especially useful for high-dimensional data when the number of features _p_ dominates the number of samples _n_ (_p_ >> _n_ paradigm), 
+as generated for instance by high-throughput technologies.
 
 
 ===============
@@ -50,7 +50,7 @@ This branch (master) is the  default one, that hosts the current development rel
 
 Package superpc is open source / free software, licensed under the GNU General Public License version 3 (GPLv3), 
 sponsored by the [Free Software Foundation](https://www.fsf.org/). To view a copy of this license, visit 
-[GNU Free Documentation License](http://www.gnu.org/licenses/gpl-3.0.html).
+[GNU Free Documentation License](https://www.gnu.org/licenses/gpl-3.0.html).
 
 
 =============
