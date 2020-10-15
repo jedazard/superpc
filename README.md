@@ -43,7 +43,7 @@ and is more interpretable.
 ============
 ### Branches
 
-This branch (master) is the  default one, that hosts the current development release (version 1.10).
+This branch (master) is the  default one, that hosts the current development release (version 1.12).
 
 ===========
 ### License
@@ -70,7 +70,7 @@ CRAN downloads in the last week:
 ================
 ### Requirements
 
-superpc (>= 1.10) requires R-3.5.0 (2018-04-23). It was built and tested under R version 4.0.3 (2020-10-10) and Travis CI. 
+superpc (>= 1.12) requires R-3.5.0 (2018-04-23). It was built and tested under R version 4.0.3 (2020-10-10) and Travis CI. 
 
 Installation has been tested on Windows, Linux, OSX and Solaris platforms. 
 
@@ -84,14 +84,14 @@ See CRAN checks:
 ================
 ### Installation
 
-* To install the stable version of `superpc`, simply download and install the current version (1.10) from the [CRAN](https://CRAN.R-project.org/package=superpc) 
+* To install the stable version of `superpc`, simply download and install the current version (1.12) from the [CRAN](https://CRAN.R-project.org/package=superpc) 
 repository:
 
 ```{r}
 install.packages("superpc")
 ```
 
-* Alternatively, you can install the most up-to-date development version (>= 1.10) of `superpc` from the [GitHub](https://github.com/jedazard/superpc) repository:
+* Alternatively, you can install the most up-to-date development version (>= 1.12) of `superpc` from the [GitHub](https://github.com/jedazard/superpc) repository:
 
 ```{r}
 install.packages("devtools")
