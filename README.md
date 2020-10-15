@@ -5,9 +5,9 @@ Supervised Principal Components for regression and survival analysis.
 ===============
 ### Description
 
-Superpc does prediction for a censored survival outcome, or a regression outcome, using the "supervised principal component" approach. 
-It is especially useful for high-dimensional data when the number of features _p_ dominates the number of samples _n_ (_p_ >> _n_ paradigm), 
-as generated for instance by high-throughput technologies.
+Does prediction in the case of a censored survival outcome, or a regression outcome, using the "supervised principal component" approach (Bair et al., 2006).
+Superpc is especially useful for high-dimensional data when the number of features _p_ dominates the number of samples _n_ (_p_ >> _n_ paradigm), 
+as generated, for instance, by high-throughput technologies.
 
 
 ===============
@@ -84,8 +84,8 @@ See CRAN checks:
 ================
 ### Installation
 
-* To install the stable version (1.10) of `superpc` from the [CRAN](https://CRAN.R-project.org/package=superpc) repository, 
-simply download and install the current version (1.10) from the CRAN repository:
+* To install the stable version of `superpc`, simply download and install the current version 1.10) from the [CRAN](https://CRAN.R-project.org/package=superpc) 
+repository:
 
 ```{r}
 install.packages("superpc")
@@ -156,8 +156,8 @@ Funding/Provision/Help:
 
    + Bair E. and Tibshirani R.
      *Semi-supervised methods to predict patient survival from gene expression data*. 
-     [PLoS Biol (2004)](https://journals.plos.org/plosbiology/article/authors?id=10.1371/journal.pbio.0020108), 2(4):e108.
+     [PLoS Biol (2004), 2(4):e108](https://journals.plos.org/plosbiology/article/authors?id=10.1371/journal.pbio.0020108).
 
    + Bair E., Hastie T., Paul D., and Tibshirani R.
      *Prediction by supervised principal components*. 
-     [J. Am. Stat. Assoc (2006)](https://www.tandfonline.com/doi/abs/10.1198/016214505000000628), 101(473):119-137.
+     [J. Am. Stat. Assoc (2006), 101(473):119-137](https://www.tandfonline.com/doi/abs/10.1198/016214505000000628).
