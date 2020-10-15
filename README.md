@@ -84,7 +84,7 @@ See CRAN checks:
 ================
 ### Installation
 
-* To install the stable version of `superpc`, simply download and install the current version 1.10) from the [CRAN](https://CRAN.R-project.org/package=superpc) 
+* To install the stable version of `superpc`, simply download and install the current version (1.10) from the [CRAN](https://CRAN.R-project.org/package=superpc) 
 repository:
 
 ```{r}
