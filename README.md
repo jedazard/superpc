@@ -91,8 +91,7 @@ repository:
 install.packages("superpc")
 ```
 
-* Alternatively, you can install the most up-to-date development version (>= 1.10) of `superpc` from the [GitHub](https://github.com/jedazard/superpc) repository, 
-simply run the following using devtools:
+* Alternatively, you can install the most up-to-date development version (>= 1.10) of `superpc` from the [GitHub](https://github.com/jedazard/superpc) repository:
 
 ```{r}
 install.packages("devtools")
