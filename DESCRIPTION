@@ -14,7 +14,7 @@ Authors@R: c(person("Eric", "Bair",
 	               email = "tibs@stanford.edu"))
 Author: Eric Bair [aut], Jean-Eudes Dazard [cre, ctb], Rob Tibshirani [ctb]
 Maintainer: Jean-Eudes Dazard <jean-eudes.dazard@case.edu>
-Description: Does prediction in the case of a censored survival outcome, or a regression outcome, using the "supervised principal component" approach. Superpc is especially useful for high-dimensional data when the number of features p dominates the number of samples n (p >> n paradigm), as generated, for instance, by high-throughput technologies.
+Description: Does prediction in the case of a censored survival outcome, or a regression outcome, using the "supervised principal component" approach. 'Superpc' is especially useful for high-dimensional data when the number of features p dominates the number of samples n (p >> n paradigm), as generated, for instance, by high-throughput technologies.
 Depends: R (>= 3.5.0)
 Imports: survival, stats, graphics, grDevices
 NeedsCompilation: no
