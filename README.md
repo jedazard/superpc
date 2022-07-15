@@ -75,7 +75,7 @@ superpc (>= 1.12) requires R-3.5.0 (2018-04-23). It was built and tested under R
 Installation has been tested on Windows, Linux, OSX and Solaris platforms. 
 
 See Travis CI build result:
-[![Build Status](https://app.app.travis-ci.com/jedazard/superpc.svg)](https://app.app.travis-ci.com/jedazard/superpc)
+[![Build Status](https://app.travis-ci.com/jedazard/superpc.svg)](https://app.travis-ci.com/jedazard/superpc)
 
 See CRAN checks:
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/superpc)](https://cran.r-project.org/web/checks/check_results_superpc.html)
