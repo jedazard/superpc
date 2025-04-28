@@ -2,8 +2,12 @@
 .Rhistory
 .Rapp.history
 
+# Environments
+.Renviron
+
 # Session Data files
 .RData
+.RDataTmp
 
 # Example code in package build process
 *-Ex.R
